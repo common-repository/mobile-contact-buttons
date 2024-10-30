@@ -1,0 +1,64 @@
+#mobile_contact_buttons,#mobile_contact_buttons2 {
+    display: none;
+    visibility: hidden;
+}
+
+@media (max-width: 569px) {
+    #mobile_contact_buttons {
+        z-index: 999;
+        display: block;
+        visibility: visible;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background: #00aeef;
+        text-align: center;
+    }
+    .mobile_contact_buttons_call,
+    .mobile_contact_buttons_email,
+    .mobile_contact_buttons_sms {
+        display: inline-block;
+        width: 30%;
+    }
+    .mobile_contact_buttons_call a,
+    .mobile_contact_buttons_email a,
+    .mobile_contact_buttons_sms a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        height: 50px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .mobile_contact_buttons_email {
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+	 #mobile_contact_buttons2 {
+        z-index: 999;
+        display: block;
+        visibility: visible;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background: #00aeef;
+        text-align: center;
+    }
+	.mobile_contact_buttons_call2,
+    .mobile_contact_buttons_email2 {
+        display: inline-block;
+        width: 49%;
+    }
+    .mobile_contact_buttons_call2 a,
+    .mobile_contact_buttons_email2 a{
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        height: 50px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .mobile_contact_buttons_email2 {
+        border-left: 1px solid white;
+    }
+}
